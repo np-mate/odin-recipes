@@ -1,10 +1,10 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f8f9fa;
-    color: #333;
+    background-color: #343541;
+    color: #ececf1;
     text-align: center;
 }
 
@@ -12,13 +12,13 @@ body {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background: white;
+    background: #40414f;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
 
 h1, h2, h3 {
-    color: #343a40;
+    color: #d1d5db;
 }
 
 /* Recipe Image */
@@ -37,7 +37,7 @@ h1, h2, h3 {
 .button {
     display: inline-block;
     text-decoration: none;
-    background: #007bff;
+    background: #10a37f;
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -45,7 +45,7 @@ h1, h2, h3 {
 }
 
 .button:hover {
-    background: #0056b3;
+    background: #0d8c6a;
 }
 
 /* Lists */
@@ -69,3 +69,4 @@ li {
 .recipe-list li {
     margin: 10px 0;
 }
+
